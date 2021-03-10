@@ -70,5 +70,13 @@ while(index<=5){
 console.log('count backwards from 10 to 5');
 while(index>=1){
   console.log(index +4);
-  index--
+  index--;
+}
+
+//after doing the codecademy loop lesson I finally got this right!!
+console.log('This is another way to write this while loop:');
+index = 10;
+while(index>=5){
+  console.log(index);
+  index--;
 }
